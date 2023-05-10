@@ -1,1 +1,40 @@
+@import "./node_modules/bootstrap/scss/bootstrap";
+
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --vermelho: #f72717;
+  --azul: #162056;
+  --azul-ciano: #7fc2e4;
+  --branco: #ffffff;
+  --cinzento: #323232;
+  --cinza-claro: #d0d1d3;
+  --cinza: #808080;
+  --verde: #56c080;
+  --amarelo-areia: #f1d681;
+  --cinza-icon: #f4f4f4;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--cinza-claro) !important;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff !important;
+  background-color: var(--vermelho) !important;
+  border-color: var(--vermelho) !important;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: var(--vermelho) !important;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
